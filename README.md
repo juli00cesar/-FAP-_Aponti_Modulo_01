@@ -12,15 +12,6 @@ Repositório que reúne **projetos, atividades, exercícios e estudos desenvolvi
 
 Este repositório documenta minha trajetória de aprendizado e evolução técnica nas áreas de **Análise de Dados, Programação, Banco de Dados e Visualização de Informações**, por meio de atividades práticas e projetos desenvolvidos ao longo da formação.
 
-## 🛠️ Tecnologias
-
-<div align="center">
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="50"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="50"/>
-
-</div>
 ---
 
 ## 📊 Fundamentos de Data Analytics
