@@ -1,112 +1,170 @@
-📂 UNIDADES
-01 — 📊 Excel | Operações e Análise de Dados
+# 🚀 Projetos Aponti
 
-Projeto de análise de dados utilizando Microsoft Excel, com foco na realização de operações, aplicação de funções estatísticas e construção de visualizações.
+Repositório que reúne **projetos, atividades, exercícios e estudos desenvolvidos durante minha formação na 4ª edição da Formação Acelerada em Programação (FAP)**, programa de capacitação profissional na área de Tecnologia da Informação, executado pelo **Centro de Excelência em Tecnologia de Software de Pernambuco (APONTI)**.
 
-🔎 Principais atividades
-➕ Operações matemáticas
-🔒 Travamento de células
-📈 Identificação de valores máximos e mínimos
-🧹 Remoção de duplicatas
-🔢 Funções de contagem e soma
-📊 Medidas estatísticas
-📐 Quartis
-🔎 PROCV
-📊 Construção de gráficos
-📋 Tabela dinâmica como atividade extra
-🛠️ Tecnologia
+Este repositório documenta minha trajetória de aprendizado e evolução técnica nas áreas de **Análise de Dados, Programação, Banco de Dados e Visualização de Informações**, por meio de atividades práticas e projetos desenvolvidos ao longo da formação.
 
-Microsoft Excel
+---
 
-02 — 🚦 PRF 2025 | Excel
+## 📊 Fundamentos de Data Analytics
 
-Projeto de análise e visualização dos dados de acidentes da Polícia Rodoviária Federal em 2025, utilizando Excel.
+### 🔎 Trilha: Análise de Dados com Dados Abertos da PRF
 
-O projeto envolve organização e classificação dos dados, criação de indicadores, aplicação de fórmulas, estatísticas descritivas, consultas com PROCV e construção de um dashboard executivo.
+O projeto tem como objetivo analisar **acidentes ocorridos nas rodovias federais brasileiras durante o ano de 2025**, utilizando os Dados Abertos da **Polícia Rodoviária Federal (PRF)**.
 
-📊 Análises realizadas
-📌 Proporção
-⚠️ Gravidade dos acidentes
-📈 Tendência central
-📐 Quartis
-🔢 Contagens
-🔗 Relações entre diferentes características dos acidentes
-📉 Visualizações
+A base contém informações relacionadas à **localização, data, horário, tipo e causa dos acidentes, condições da via, condições meteorológicas, quantidade de veículos, pessoas envolvidas, feridos e vítimas fatais**.
 
-Foram desenvolvidos diferentes tipos de gráficos, incluindo:
+O projeto busca identificar padrões e características associadas aos **acidentes com vítimas fatais**, explorando os dados sob diferentes perspectivas e utilizando ferramentas distintas de análise.
 
-📍 Gráfico de dispersão
-🍩 Gráfico de rosca/pizza
-📊 Gráfico de barras horizontais
-📈 Gráfico de linhas
-📊 Gráfico de colunas empilhadas
-📋 Painel de consulta dinâmica
-🎯 Dashboard executivo
-🛠️ Tecnologia
+Para apoiar as análises, foi criada a variável-alvo **`acidente_fatal`**, derivada da quantidade de vítimas fatais:
 
-Microsoft Excel
+```text
+acidente_fatal = 1 → acidente com pelo menos uma vítima fatal
+acidente_fatal = 0 → acidente sem vítimas fatais
+```
 
-03 — 📚 Módulo 3 | SQL
+---
 
-Projetos e exercícios desenvolvidos durante a formação na **Escola Tech**, envolvendo fundamentos de programação, análise de dados e desenvolvimento de soluções práticas.
+# 📗 Excel
 
-### 💻 Conteúdos
+As atividades desenvolvidas em Excel tiveram como objetivo consolidar conhecimentos fundamentais de **organização, tratamento, análise e visualização de dados**.
 
-- 🐍 Fundamentos de Python
-- 🗄️ SQL
-- 📊 Análise de dados
-- 💡 Desenvolvimento de soluções práticas
-- 
-SQL • SQLite
+Durante as atividades, foram trabalhados conceitos e ferramentas como:
 
-04 — 🐍 PRF 2025 | Python
+* Operações matemáticas;
+* Referências e travamento de células;
+* Filtros e classificação de dados;
+* Identificação de valores máximos e mínimos;
+* Remoção de dados duplicados;
+* Funções de contagem e soma;
+* Médias e medidas estatísticas;
+* Mediana, moda e quartis;
+* Função `PROCV`;
+* Criação e interpretação de gráficos;
+* Tabelas dinâmicas;
+* Construção de indicadores;
+* Análise de proporções e distribuição dos dados;
+* Desenvolvimento de dashboards.
 
-Projeto de preparação e análise dos dados de acidentes da Polícia Rodoviária Federal de 2025, utilizando Python e Pandas.
+### 🚧 Análise dos acidentes da PRF — 2025
 
-🔎 Principais atividades
-🧹 Tratamento e limpeza dos dados
-🔍 Análise exploratória de dados
-📊 Criação de indicadores de gravidade
-🎯 Construção da variável-alvo acidente_fatal
-🗂️ Preparação de base analítica
-🤖 Preparação de base modelável
-✅ Validações dos dados
-📈 Análises para utilização posterior
-🛠️ Tecnologias
+Uma das atividades teve como foco a análise dos acidentes registrados pela PRF em 2025, utilizando recursos do Excel para transformar os dados brutos em informações úteis para interpretação.
 
-Python • Pandas • Jupyter Notebook • Power BI
+Foram realizadas análises relacionadas à **gravidade dos acidentes, proporções, medidas de tendência central, quartis, distribuição das ocorrências e relações entre diferentes características dos acidentes**.
 
+Também foram desenvolvidas visualizações por meio de **gráficos de dispersão, rosca/pizza, barras horizontais, linhas e colunas empilhadas**, além de um **painel de consulta dinâmica**.
 
-📁 Organização do Repositório
+**Tecnologia principal:** Microsoft Excel.
 
-Cada projeto está organizado em uma pasta própria, contendo os arquivos, materiais e documentações relacionados ao seu desenvolvimento.
+---
 
-📦 Projetos-Aponti
+# 🗄️ SQL
+
+As atividades de SQL foram desenvolvidas com foco na **organização, consulta, transformação e análise de dados estruturados**, utilizando principalmente SQL e SQLite.
+
+### 🚧 Análise dos acidentes da PRF — 2025
+
+O projeto utiliza os dados de acidentes da Polícia Rodoviária Federal de 2025 para desenvolver consultas e análises relacionadas às ocorrências registradas nas rodovias federais brasileiras.
+
+Foram trabalhados conceitos como:
+
+* Consultas SQL;
+* Filtros e condições;
+* Ordenação de resultados;
+* Agrupamento de dados;
+* Funções de agregação;
+* Criação de indicadores;
+* Análise da gravidade dos acidentes;
+* Comparação entre diferentes características das ocorrências;
+* Exploração de relações entre variáveis;
+* Organização e manipulação de bancos de dados.
+
+**Tecnologias:** SQL e SQLite.
+
+### 💻 Escola Tech
+
+As atividades desenvolvidas durante a **Escola Tech** complementam a formação em tecnologia, abrangendo fundamentos de programação, banco de dados e desenvolvimento de soluções práticas.
+
+Os exercícios contribuíram para o desenvolvimento do **raciocínio lógico, resolução de problemas e compreensão de conceitos fundamentais de programação e manipulação de dados**.
+
+**Tecnologias:** SQL, Python e ferramentas relacionadas à análise de dados.
+
+---
+
+# 🐍 Python
+
+As atividades de Python foram direcionadas principalmente à **preparação, tratamento e análise exploratória de dados**, utilizando bibliotecas e ferramentas voltadas para Data Analytics.
+
+### 🚧 Análise dos acidentes da PRF — 2025
+
+O projeto utiliza Python e Pandas para realizar o processamento e a exploração dos dados de acidentes da PRF.
+
+Entre as principais etapas desenvolvidas estão:
+
+* Importação e organização dos dados;
+* Inspeção e compreensão da estrutura da base;
+* Tratamento e limpeza dos dados;
+* Identificação e tratamento de inconsistências;
+* Análise exploratória de dados (EDA);
+* Criação de indicadores;
+* Construção da variável-alvo `acidente_fatal`;
+* Preparação de bases analíticas e modeláveis;
+* Validação dos dados;
+* Análise das características dos acidentes;
+* Preparação dos dados para análises posteriores.
+
+A utilização do Python permitiu automatizar etapas do processo de análise e trabalhar com grandes volumes de dados de forma mais eficiente.
+
+**Tecnologias:** Python, Pandas, Jupyter Notebook e Power BI.
+
+---
+
+# 🧠 Competências Desenvolvidas
+
+Ao longo das atividades, foram desenvolvidas competências relacionadas a:
+
+* 📊 Análise e interpretação de dados;
+* 🧹 Limpeza e tratamento de dados;
+* 📈 Visualização de informações;
+* 🗃️ Manipulação de bancos de dados;
+* 🔍 Análise exploratória de dados;
+* 🧮 Estatística descritiva;
+* 🐍 Programação em Python;
+* 🗄️ Consultas SQL;
+* 📑 Excel para análise de dados;
+* 📊 Construção de dashboards;
+* 🧠 Raciocínio lógico e resolução de problemas;
+* 📚 Documentação e organização de projetos.
+
+---
+
+# 📁 Organização do Repositório
+
+O repositório está organizado de acordo com as principais tecnologias utilizadas durante a formação:
+
+```text
+Projetos-Aponti/
 │
-├── 📁 01-Excel
+├── Excel/
+│   ├── Atividade_01/
+│   └── PRF_2025/
 │
-├── 📁 02-PRF-2025-Excel
+├── SQL/
+│   ├── PRF_2025/
+│   └── Escola_Tech/
 │
-├── 📁 03-Escola-Tech
-│
-├── 📁 04-PRF-2025-Python
+└── Python/
+    └── PRF_2025/
+```
 
+Cada atividade ou projeto possui seus respectivos arquivos, materiais e recursos utilizados durante o desenvolvimento.
 
-Cada projeto possui documentação específica sobre:
+---
 
-🎯 Objetivos
-🔎 Etapas desenvolvidas
-🛠️ Tecnologias utilizadas
-📊 Análises realizadas
-📈 Resultados obtidos
-📈 Evolução do Projeto
+# 🎯 Objetivo
 
-Este repositório será atualizado continuamente ao longo da formação, acompanhando minha evolução no aprendizado e no desenvolvimento de novos projetos.
+Este repositório funciona como um **portfólio acadêmico e profissional**, registrando minha evolução ao longo da formação e apresentando, de forma prática, os conhecimentos adquiridos.
 
-🚀 Novos projetos, exercícios e estudos serão adicionados ao longo da formação.
+A proposta é continuar atualizando o repositório com novos projetos, atividades e estudos, acompanhando minha evolução na área de **Análise de Dados e Tecnologia da Informação**.
 
-👨‍💻 Sobre o Projeto
-
-Este repositório representa minha jornada de aprendizado e desenvolvimento na área de Tecnologia da Informação e Data Analytics, reunindo na prática conhecimentos adquiridos durante a formação.
-
-📚 Aprender • Praticar • Analisar • Desenvolver • Evoluir
+> 🚀 **Aprender, praticar, analisar e transformar dados em informação.**
