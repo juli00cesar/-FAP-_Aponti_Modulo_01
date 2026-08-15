@@ -1,3 +1,12 @@
+<div align="center">
+
+# 🚀 Projetos Aponti
+
+### Formação Acelerada em Programação — FAP
+
+📊 Data Analytics • 🐍 Python • 🗄️ SQL • 📗 Excel
+
+</div>
 # 🚀 Projetos Aponti
 
 Repositório que reúne **projetos, atividades, exercícios e estudos desenvolvidos durante minha formação na 4ª edição da Formação Acelerada em Programação (FAP)**, programa de capacitação profissional na área de Tecnologia da Informação, executado pelo **Centro de Excelência em Tecnologia de Software de Pernambuco (APONTI)**.
